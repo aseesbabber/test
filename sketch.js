@@ -1,3 +1,24 @@
+var num = 5;
+console.log(num);
+
+var stri="this is test";
+console.log(stri);
+
+var x = null;
+console.log(x);
+
+var object;
+console.log(object);
+
+var ar1 = [4,6,9,12,46,87,87,1000];
+console.log(ar1);
+
+var ar2 = [4,"hello",9,"shlok",46,87,87,"default"];
+console.log(ar2);
+
+var ar3 = [[2,3,6],[6,5],[5,6,8,3]];
+console.log(ar3[1][0]);
+
 const Engine = Matter.Engine;
 const World= Matter.World;
 const Bodies = Matter.Bodies;
